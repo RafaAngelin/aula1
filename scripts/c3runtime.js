@@ -4293,6 +4293,7 @@ self.C3_JsPropNameTable = [
 	{lava: 0},
 	{ui_chave: 0},
 	{dica: 0},
+	{venceu: 0},
 	{chaves: 0}
 ];
 
@@ -4306,7 +4307,8 @@ self.InstanceType = {
 	ui_texto: class extends self.ITextInstance {},
 	lava: class extends self.ISpriteInstance {},
 	ui_chave: class extends self.ISpriteInstance {},
-	dica: class extends self.ITextInstance {}
+	dica: class extends self.ITextInstance {},
+	venceu: class extends self.ITextInstance {}
 }
 }
 

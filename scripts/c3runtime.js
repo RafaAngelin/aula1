@@ -4335,9 +4335,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
 		C3.Behaviors.solid.Acts.SetEnabled,
 		C3.Plugins.Text.Acts.SetVisible,
-		C3.Plugins.Touch.Cnds.OnTapGestureObject,
+		C3.Plugins.Touch.Cnds.OnDoubleTapGesture,
 		C3.Behaviors.Platform.Acts.SimulateControl,
-		C3.Plugins.Touch.Cnds.OnDoubleTapGesture
+		C3.Plugins.Button.Cnds.OnClicked
 	];
 };
 self.C3_JsPropNameTable = [
